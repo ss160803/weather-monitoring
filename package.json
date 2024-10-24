@@ -1,0 +1,26 @@
+{
+  "name": "weather-monitoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Sahil Singh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "node-cron": "^3.0.3",
+    "sequelize": "^6.37.4"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
